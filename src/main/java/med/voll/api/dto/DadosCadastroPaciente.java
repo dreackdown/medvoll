@@ -6,7 +6,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
 
-public record DadosCadastroPacienteDto(
+public record DadosCadastroPaciente(
         @NotBlank
         String nome,
         @NotBlank
@@ -19,5 +19,5 @@ public record DadosCadastroPacienteDto(
         @Pattern(regexp = "\\d{3}\\.\\d{3}\\.\\d{3}\\-\\d{2}")
         String cpf,
 
-        @NotNull @Valid DadosEnderecoDto endereco) {
+        @NotNull @Valid DadosEndereco endereco) {
 }

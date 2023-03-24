@@ -7,7 +7,7 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
 import med.voll.api.entities.enums.Especialidade;
 
-public record DadosCadastroMedicoDto(
+public record DadosCadastroMedico(
         @NotBlank(message = "Nome é obrigatório")
         String nome,
 
@@ -27,6 +27,6 @@ public record DadosCadastroMedicoDto(
 
         @NotNull(message = "Dados do endereço são obrigatórios")
         @Valid
-        DadosEnderecoDto endereco
+        DadosEndereco endereco
 ) {
 }

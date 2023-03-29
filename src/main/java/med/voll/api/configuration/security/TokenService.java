@@ -1,4 +1,4 @@
-package med.voll.api.security;
+package med.voll.api.configuration.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;

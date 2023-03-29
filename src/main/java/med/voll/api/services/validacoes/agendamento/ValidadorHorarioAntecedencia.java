@@ -4,7 +4,6 @@ import med.voll.api.dto.DadosAgendamentoConsulta;
 import med.voll.api.exceptions.ValidacaoException;
 import org.springframework.stereotype.Component;
 
-import java.time.DayOfWeek;
 import java.time.Duration;
 import java.time.LocalDateTime;
 

@@ -1,8 +1,8 @@
 package med.voll.api.controller;
 
 import jakarta.validation.Valid;
-import med.voll.api.security.DadosTokenJWT;
-import med.voll.api.security.TokenService;
+import med.voll.api.configuration.security.DadosTokenJWT;
+import med.voll.api.configuration.security.TokenService;
 import med.voll.api.dto.DadosAutenticacao;
 import med.voll.api.entities.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;

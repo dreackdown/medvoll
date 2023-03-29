@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class AgendaDeConsultas {
+public class ConsultaService {
 
     @Autowired
     private ConsultaRepository consultaRepository;

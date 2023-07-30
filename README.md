@@ -34,6 +34,6 @@ As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do proj
 
 ## 📝 Licença
 
-Projeto desenvolvido por [Hugo Faria](https://www.linkedin.com/in/hugofarialima/) para o Alura Challenge - Back-End Edição 7
+Projeto desenvolvido por [Hugo Faria](https://www.linkedin.com/in/hugofarialima/) no curso de Spring Boot 3 da Alura
 
 ---

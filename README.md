@@ -1,39 +1,43 @@
-## 💻 Sobre o projeto
+# 🚑 MedVoll
 
-Voll.med é uma clínica médica fictícia que precisa de um aplicativo para gestão de consultas. O aplicativo deve possuir funcionalidades que permitam o cadastro de médicos e de pacientes, e também o agendamento e cancelamento de consultas.
----
 
-## ⚙️ Funcionalidades
+MedVoll é um sistema de gestão de consultas para uma clínica médica fictícia, permitindo o gerenciamento de médicos, pacientes e agendamentos.
+## 🎯 Objetivo
 
-- [x] CRUD de médicos;
-- [x] CRUD de pacientes;
-- [x] Agendamento de consultas;
-- [x] Cancelamento de consultas.
+Facilitar a administração de uma clínica médica com funcionalidades que suportam desde o cadastro de médicos e pacientes até o agendamento e cancelamento de consultas.
+## 🛠️ Funcionalidades
+- CRUD de Médicos
+- CRUD de Pacientes
+- Agendamento de Consultas
+- Cancelamento de Consultas
 
----
 
-## 🎨 Layout
+## 🚀 Tecnologias e Práticas utilizadas
 
-O layout da aplicação mobile está disponível neste link: <a href="https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med">Figma</a>
+- Java 17
+- Spring REST
+- Spring Boot e Spring MVC
+- Jakarta Persistence, Flyway e Lombok
+- Validações com Jakarta Bean Validation
 
----
+## 📦 Instalação e execução
 
-## 🛠 Tecnologias
+1. Clonar o repositório
+    ```bash
+    git clone https://github.com/dreackdown/medvoll.git
+    cd medvoll
+    ```
+2. Configurar o Banco de Dados: Atualize as configurações do banco de dados no arquivo `application.properties`.
 
-As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do projeto:
+3. Executar a aplicação:
+    ```bash
+    mvn spring-boot:run
+    ```
+   A aplicação estará acessível em <http://localhost:8080>.
 
-- **[Java 17](https://www.oracle.com/java)**
-- **[Spring Boot 3](https://spring.io/projects/spring-boot)**
-- **[Maven](https://maven.apache.org)**
-- **[MySQL](https://www.mysql.com)**
-- **[Hibernate](https://hibernate.org)**
-- **[Flyway](https://flywaydb.org)**
-- **[Lombok](https://projectlombok.org)**
+## Contato
 
----
+Para qualquer dúvida ou sugestão, entre em contato:
 
-## 📝 Licença
-
-Projeto desenvolvido por [Hugo Faria](https://www.linkedin.com/in/hugofarialima/) no curso de Spring Boot 3 do Alura
-
----
+- Email: <devhugofaria@gmail.com>
+- LinkedIn: [Hugo Faria Lima](https://www.linkedin.com/in/hugofarialima)
